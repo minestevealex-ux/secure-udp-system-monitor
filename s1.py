@@ -10,9 +10,9 @@ SERVER_PORT = 9999
 CPU_THRESHOLD = 80
 MEM_THRESHOLD = 80
 DISK_THRESHOLD = 90
-
-FERNET_KEY = b'LuzztKY-diDjRs5eADRhplwXAvdgfPD7GiO33o1GkxU='
-HMAC_SECRET = b'super_secret_key_123'
+# NOTE: Replace these with your own keys for actual use
+FERNET_KEY = b'your_fernet_key_here'
+HMAC_SECRET = b'your_hmac_secret_here'
 #NOTE In production, store keys securely (env variables or config files)
 cipher = Fernet(FERNET_KEY)
 
