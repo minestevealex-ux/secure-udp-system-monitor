@@ -8,9 +8,9 @@ from cryptography.fernet import Fernet
 
 SERVER_IP = "127.0.0.1" # change to server IP adress for remote systems
 SERVER_PORT = 9999
-
-FERNET_KEY = b'LuzztKY-diDjRs5eADRhplwXAvdgfPD7GiO33o1GkxU='
-HMAC_SECRET = b'super_secret_key_123'
+# NOTE: Replace these with your own keys for actual use
+FERNET_KEY = b'your_fernet_key_here'
+HMAC_SECRET = b'your_hmac_secret_here'
 
 cipher = Fernet(FERNET_KEY)
 
